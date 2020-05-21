@@ -1,0 +1,238 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background-image: url(../img/hero-image.png);
+    background-size: cover;
+    clear: both;
+}
+
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #A4BA0F;
+    float: left;
+    margin: 250px 340px 0 330px;
+    padding: 0 0 0 40px;
+}
+
+
+header h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: #000000;
+    float: left;
+    margin: 0 250px 10px 320px;
+    padding: 0;
+}
+
+
+/***** WORK *****/
+#work {
+    background-color: #ffffff;
+    height: 950px;
+}
+
+
+#work .full-width {
+    padding: 60px 0;
+}
+
+
+#work h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px; 
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 60px 0;
+    padding: 0;
+}
+
+
+#work img {
+    height: 305px;
+    margin: 0 75px 30px 0;
+    padding: 0;
+    float: right;
+    border: 1px #D1CEB9 solid;
+}
+
+
+#work a {
+    font-family: 'Arimo', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0 275px 40px 20px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+
+#work a:hover {
+    color: #408BC4;
+}
+
+
+#work p {
+    font-size: 22px;
+    color: #000000;
+    margin: 25px 30px 140px 22px;
+    padding: 0;
+    line-height: 40px;
+}
+
+
+/***** ABOUT *****/
+#about {
+    background-color: #408BC4;
+    height: 600px;
+}
+
+
+#about .full-width {
+    padding: 50px 0;
+}
+
+
+#about h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+
+#about img {
+    height: 400px;
+    margin: 0 0 0 130px;
+    padding: 0;
+    border: 1px #D1CEB9 solid;
+}
+
+
+#about p {
+    font-size: 22px;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 35px 30px 40px 22px;
+    padding: 0;
+}
+
+
+/***** CONTACT *****/
+#contact {
+    background-color: #2a6089;
+    height: 300px;
+}
+
+
+#contact .full-width {
+    padding: 50px 0;
+}
+
+
+#contact h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 200;
+    color: #ffffff;
+    margin: 0 0 35px 0;
+    padding: 0;
+}
+
+
+#contact h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+#contact a {
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0 0 80px;
+    padding: 0;
+}
+
+
+#contact p {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+#contact ul {
+    margin-left: -70px;
+}
+
+
+#contact ul li {
+    padding: 0;
+    display: inline-block;
+}
+
+
+/***** FOOTER *****/
+footer {
+    background-color: #2a6089;
+    height: 40px;
+    padding: 20px 0 30px 0;
+}
+
+
+footer h6 {
+    font-family: 'Arimo' , sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
